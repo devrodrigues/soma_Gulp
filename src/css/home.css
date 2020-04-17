@@ -1,0 +1,22 @@
+@import "base.css";
+
+#n1, #n2 {
+    padding: 10px;
+    font-size: 25px;
+    width: 70px;
+}
+
+#resultado {
+    border: 1px dashed #FFF;
+    padding: 20px;
+    font-size: 20px;
+    width: 400px;
+    margin: auto;
+    color: ghostwhite;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: ghostwhite;
+}
