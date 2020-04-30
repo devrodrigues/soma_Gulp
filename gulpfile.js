@@ -39,4 +39,11 @@ function css() {
 
 }
 
-exports.default = parallel(base, javascript, css)
+exports.default = function() {
+
+    watch('src/css/*.css', css);
+    watch('src/js/*.js', javascript);
+    watch('src/templates/*.html', base);
+
+};
+
